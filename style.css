@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: lightcoral;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 90px;
+}
+li {
+  text-align: center;
+  margin-left: 500px;
+}
+.first-li {
+  display: flex;
+  flex-direction: row;
+}
+
+.l-1 {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate {
+  0% {
+    transform: skewX(20deg);
+  }
+  50% {
+    transform: skewX(-20deg);
+  }
+  100% {
+    transform: skewX(20deg);
+  }
+}
+
+.l-2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate-2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate-2 {
+  0% {
+    transform: skewy(30deg);
+  }
+  50% {
+    transform: skewy(-30deg);
+  }
+  100% {
+    transform: skewy(30deg);
+  }
+}
+.l-3 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate-3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate-3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.l-4 {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate-4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate-4 {
+  0% {
+    transform: scaley(1.1);
+  }
+  50% {
+    transform: scaley(0.5);
+  }
+  100% {
+    transform: scaley(1.1);
+  }
+}
+
+.l-5 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(128, 0, 53);
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate-5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate-5 {
+  0% {
+    transform: scalex(1.1);
+  }
+  50% {
+    transform: scalex(0.5);
+  }
+  100% {
+    transform: scalex(1.1);
+  }
+}
+.l-6 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(128, 75, 0);
+  margin-right: 50px;
+  margin-left: 38px;
+  margin-bottom: 50px;
+  animation-name: animate-6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate-6 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(00deg);
+  }
+}
+a {
+  color: black;
+  font-size: 40px;
+  margin-left: 600px;
+}
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(115, 2, 115);
+  margin: 10px;
+  transition-duration: 3s;
+  margin-left: 600px;
+}
+.box1:hover {
+  width: 250px;
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(111, 4, 38);
+  margin: 10px;
+  transition-duration: 3s;
+  margin-left: 600px;
+}
+.box2:hover {
+  width: 250px;
+  height: 200px;
+}
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(115, 2, 115);
+  margin: 10px;
+  transition-duration: 3s;
+  margin-left: 600px;
+}
+.box3:hover {
+  width: 250px;
+}
+.box4 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(115, 2, 115);
+  margin: 10px;
+  transition-duration: 3s;
+  margin-left: 600px;
+}
+.box4:hover {
+  width: 250px;
+}
+.box5 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(115, 2, 115);
+  margin: 10px;
+  transition-duration: 3s;
+  margin-left: 600px;
+}
+.box5:hover {
+  width: 250px;
+}
+
+
