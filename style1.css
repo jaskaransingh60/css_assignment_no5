@@ -10,7 +10,7 @@ body {
 }
 
 .sky {
-  background-image: url(./css/sky.jpg);
+  background-image: url(./sky.jpg);
   width: 100%;
   height: 600px;
 }
@@ -47,7 +47,7 @@ body {
   
 }
 .building {
-  background-image: url(./css/city.png);
+  background-image: url(./city.png);
   height: 270px;
   margin-top: 10px;
   position: relative;
